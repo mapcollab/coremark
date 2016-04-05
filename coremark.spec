@@ -43,3 +43,6 @@ install -m755 run-coremark.sh %{buildroot}/%{_bindir}/
 %attr(0755,root,root) %{_bindir}/run-coremark.sh
 
 %changelog
+* Tue Apr 05 2016 Tomasz Rostanski <tomasz.rostanski@thalesgroup.com> 1.0-1
+- new package built with tito
+
